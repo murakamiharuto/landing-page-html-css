@@ -1,0 +1,130 @@
+.navbar-footer{
+    height: 9.6rem;
+    background-color: #685C5C;
+    margin-top: 7rem;
+}
+.navbar-footernav{
+    max-width: 144rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    color: #FFFFFF;
+    margin: auto;
+}  
+.desination{
+    position: relative;
+    left: -5rem;
+    font-size: 5rem;
+    font-family: var(--Monstfont);
+    font-weight: 900;
+    font-style: italic ;
+    padding-left: 0rem;
+} 
+.navbar-footernav li a{
+    text-decoration: none;
+}
+.company_mark{
+    font-size: 2rem;
+    font-family:var(--Monstfont);
+    font-style: italic;
+    font-weight: 900;
+}
+.company_mark>span{
+    font-family: var(--notofont);
+    font-style: normal;
+    font-weight: 500;
+}
+.contact img{
+    width: 4rem;
+    height: 3.7rem;
+    margin-top: 2rem;
+}
+.contact a{
+    position: relative;
+    top: -1rem;
+    font-size: 2.4rem;
+    font-weight: bold;
+    font-family: var(--yufont);
+    color: white;
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .navbar-footer{
+        max-width: 192rem;
+        width: 100%;
+        height: 9.6rem;
+        background-color: #685C5C;
+        margin: 9rem 0 0;
+    }
+    .desination {
+        position: relative;
+        left: -3rem;
+        font-size: 3rem;
+        font-family: var(--Monstfont);
+        font-weight: 900;
+        font-style: italic;
+        padding-left: 0rem;
+    }
+    .company_mark {
+        font-size: 1rem;
+        font-family: var(--Monstfont);
+        font-style: italic;
+        font-weight: 900;
+    }
+    .contact{
+        position: relative;
+        right: 1rem;
+    }
+    .contact img {
+        width: 3rem;
+        height: 3rem;
+        margin-top: 1rem;
+    }
+    .contact a {
+        position: relative;
+        top: -1rem;
+        font-size: 1.4rem;
+        font-weight: bold;
+        font-family: var(--yufont);
+        color: white;
+    }
+}
+@media screen and (max-width: 425px){
+    .navbar-footer{
+        max-width: 192rem;
+        width: 100%;
+        height: 9.6rem;
+        background-color: #685C5C;   
+    }
+    .desination {
+        position: relative;
+        left: -3rem;
+        font-size: 2rem;
+        font-family: var(--Monstfont);
+        font-weight: 900;
+        font-style: italic;
+        padding-left: 0rem;
+    }
+    .company_mark {
+        display: none;
+    }
+    .contact{
+        position: relative;
+        right: 1rem;
+    }
+    .contact img {
+        width: 3rem;
+        height: 3rem;
+        margin-top: 1rem;
+    }
+    .contact a {
+        position: relative;
+        top: -1rem;
+        font-size: 1.4rem;
+        font-weight: bold;
+        font-family: var(--yufont);
+        color: white;
+    }
+}

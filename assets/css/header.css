@@ -1,0 +1,373 @@
+header{
+    position: sticky;
+    z-index: 5;
+    top: 0;
+}
+.top-header{
+    background-color: var(--header-col);
+    position: relative;
+}
+.btn_phone, .btn_mail {
+    display: none;
+}
+.btn_phone img, .btn_mail img{
+    display: none;
+}
+.logo{
+    margin-left: 8rem;
+    margin: top;
+    padding-top: 1.3rem;
+    font-size: 3.8rem;
+    font-family: var(--zenfont);
+    font-style: black;
+    font-weight: 900;
+}
+.logo p{
+    padding-left: 4.6rem;
+}
+.tel-phone{
+    background-color: #7BBBE6;
+    padding: 0 2rem;
+    width: 41rem;
+    height: 7.7rem;
+    padding-top: 0.6rem;
+}
+.tel-phone p{
+    color: white;
+    font-size: 3.8rem;
+    font-family: var(--impactfont);
+}
+.tel-phone img{
+    width: 7.3rem;
+}
+.tel-email{
+    background-color: var(--clr-yellow);
+    margin-left: 1.3rem;
+    padding:0 2rem;
+    font-size: 3.8rem;
+    width: 41rem;
+    height: 7.7rem;
+    color: white;
+    font-family: var(--zenfont);
+    padding-top: 0.6rem;
+    gap: 3.4rem;
+    justify-content: center;
+}
+.tel-email img{
+    width: 4.6rem;
+}
+.menu-wrap{
+    display: none ;
+}
+.navbar-headernav{
+    position:relative;
+    top: 0rem;
+    height: 6.8rem;
+    background-color: white;
+    list-style-type: none;
+    margin: 0;
+    font-family: var(--zenfont);
+    font-size : 2.4rem;
+    padding-left: 0rem;
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    header{
+        position: sticky;
+        z-index: 5;
+        top: 0;
+    }
+    .top-header{
+        background-color: var(--header-col);
+        position: relative;
+    }
+    .logo{
+        margin: top;
+        padding-top: 0.3rem;
+        font-size: 1.8rem;
+        font-family: var(--zenfont);
+        font-style: black;
+        font-weight: 900;
+    }
+    .logo p{
+        padding-left: 2.3rem;
+    }
+    .brand-logo{
+        width: 6rem;
+    }
+    .tel-phone{
+        background-color: #7BBBE6;
+        padding: 2px -2.5rem;
+        width: 18rem;
+        height: 3.4rem;
+        padding-top: 0.1rem;
+    }
+    .tel-phone p {
+        color: white;
+        font-size: 1.3rem;
+        font-family: var(--impactfont);
+    }
+    .tel-phone img {
+        width: 3.4rem;
+    }
+    .tel-email{
+        background-color: var(--clr-yellow);
+        margin-left: 2.2rem;
+        padding: 1px 0.4rem;
+        font-size: 1.5rem;
+        width: 17rem;
+        height: 3.4rem;
+        color: white;
+        font-family: var(--zenfont);
+        padding-top: 0.1rem;
+        gap: 1.7rem;
+        justify-content: center;
+    }
+    .tel-email img {
+        width: 2.4rem;
+    }
+    .navbar-headernav{
+        position: relative;
+        top: 0rem;
+        height: 1.4rem;
+        background-color: white;
+        list-style-type: none;
+        margin: 0;
+        font-family: var(--zenfont);
+        font-size: 1rem;
+        padding-left: 18rem;
+        padding-right: 7rem;
+    }
+    .menu-wrap{
+        display: none ;
+    }
+}
+@media screen and (max-width: 425px) {
+    header{
+        position: sticky;
+        z-index: 5;
+        top: 0;
+    }
+    .top-header{
+        background-color: var(--header-col);
+        position: relative;
+    }
+    .btn_group{
+        display: block;
+    }
+    .btn_phone {
+        display: block;
+        position: fixed;
+        background-color: var(--sp_btncol);
+        top: 6.2rem;
+        right: 0rem;
+        z-index: 3;
+        background-color: white;
+        box-shadow: 0.1rem 0.1rem 0rem #e27d7d;
+        width: 11%;
+    }
+    .btn_phone img{
+        display: block;
+        width:4rem;
+        -webkit-filter: brightness(100%); 
+        filter: brightness(30%);
+        margin-left: 0.4rem;
+    }
+    .btn_mail {
+        display: block;
+        position: fixed;
+        background-color: white;
+        box-shadow: 0.1rem 0.1rem 0rem #e27d7d;   
+        top: 10.2rem;
+        right: 0rem;
+        z-index: 3;
+        width: 11%;
+    }
+    .btn_mail img{
+        display: block;
+        -webkit-filter: brightness(100%); 
+        filter: brightness(30%);
+        width:4rem;
+        margin-left: 0.4rem;
+    }
+    .logo{
+        margin-left:1rem;
+        padding-top: 0.3rem;
+        font-size: 1.8rem;
+        font-family: var(--zenfont);
+        font-style: black;
+        font-weight: 900;
+    }
+    .logo p{
+        padding-left: 2.3rem;
+        display: none;
+    }
+    .brand-logo{
+        width: 4rem;
+    }
+    .tel-phone{
+        background-color: #7BBBE6;
+        padding: 2px -2.5rem;
+        width: 18rem;
+        height: 3.4rem;
+        padding-top: 0.1rem;
+    }
+    .tel-phone p {
+        color: white;
+        font-size: 1.3rem;
+        font-family: var(--impactfont);
+    }
+    .tel-phone img {
+        width: 3.4rem;
+    }
+    .tel-email{
+        background-color: var(--clr-yellow);
+        margin-left: 2.2rem;
+        padding: 1px 0.4rem;
+        font-size: 1.5rem;
+        width: 17rem;
+        height: 3.4rem;
+        color: white;
+        font-family: var(--zenfont);
+        padding-top: 0.1rem;
+        gap: 1.7rem;
+        justify-content: center;
+    }
+    .tel-email img {
+        width: 2.4rem;
+    }
+    .navbar-header {
+        display: none;
+    }
+    .navbar-headernav{
+        position: relative;
+        top: 0rem;
+        height: 1.4rem;
+        background-color: white;
+        list-style-type: none;
+        margin: 0;
+        font-family: var(--zenfont);
+        font-size: 1rem;
+        padding-left: 21rem;
+        padding-right: 7rem;
+    }
+    .top-btn-group {
+        display: none;
+    }
+    .menu-wrap{
+        position: fixed;
+        top: 0;
+        right: 5px;
+        z-index: 6;
+        display: block;
+    }
+    .menu-wrap .toggler{
+        position: absolute;
+        top: 0.4rem;
+        right: 0rem;
+        cursor: pointer;
+        z-index: 2;
+        width: 5rem;
+        height: 5rem;
+        opacity: 0;
+    }
+    .menu-wrap .hamburger {
+        position: absolute;
+        top: 5px;
+        right: 0rem;
+        z-index: 1;
+        padding: 1rem;
+        width: 4.5rem;
+        height: 4.5rem;
+        background-color: rgba(255, 255, 255, 1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.3re,;
+    }
+    .menu-wrap .hamburger > div{
+        position: relative;
+        width: 100%;
+        height: 0.2rem;
+        background-color: rgb(12, 12, 12);
+        transition: transform 0.4s ease;
+    }
+    .menu-wrap .hamburger > div::before,
+    .menu-wrap .hamburger > div::after{
+        content: "";
+        position: absolute;
+        top: -1rem;
+        width: 100%;
+        height: 0.2rem;
+        background-color: inherit;
+    }
+    .menu-wrap .hamburger > div::after{
+        top: 1rem;
+    }
+    .menu-wrap .toggler:checked + .hamburger>div{
+        transform: rotate(135deg);
+    }
+    .menu-wrap .toggler:checked + .hamburger>div::before,
+    .menu-wrap .toggler:checked + .hamburger>div::after{
+        top: 0;
+        transform: rotate(90deg);
+    }
+    .menu-wrap .toggler:checked:hover + .hamburger>div{
+        transform: rotate(225deg);
+    }
+    .menu-wrap .toggler:checked ~ .menu{
+        visibility: visible;
+    }
+    .menu-wrap .toggler:checked ~ .menu> div{
+        transform: scale(1);
+        transition-duration: 0.5s;
+    }
+    .menu-wrap .toggler:checked ~ .menu> div > div{
+        opacity: 1;
+        transition: opacity 0.4s ease;
+    }
+    .menu-wrap .menu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        visibility: hidden;
+        justify-content: center;
+    }
+    .menu-wrap .menu>div{
+        background-color: rgba(39, 39, 38, 0.8);
+        width: 200vw;
+        height: 200vw;
+        overflow: hidden;
+        display: flex;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        flex: none;
+        transform: scale(0);
+        transition: all 0.4s ease;
+    }
+    .menu-wrap .menu > div > div{
+        max-width: 90vw;
+        max-height: 100vh;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.4s ease;
+    }
+    .menu-wrap .menu > div > div > ul > li{
+        list-style: none;
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+    .menu-wrap .menu > div > div > ul > li > a{
+        text-decoration: none;
+        color: #ffffff;
+        transition: color 0.4s ease;
+    }
+}
+
+

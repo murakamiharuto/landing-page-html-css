@@ -1,0 +1,70 @@
+:root {
+    --clr-yellow: #E0E486;
+    --clr-r-yellow: #C3D162;
+    --clr-border: #348AD1;
+    --header-col:white;
+    --txtshadow : #1A6AD2;
+    --sp_btncol:#CBB8B8;
+    --appealcol:#9FD7FC;
+    --itemcol:#E27D7D;
+    --zenfont : 'Zen Kaku Gothic New', sans-serif;
+    --notofont : 'Noto Sans JP', sans-serif;
+    --Monstfont : 'Montserrat', sans-serif;
+    --impactfont : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    --yufont : 'Gothic A1', sans-serif;
+    --segoefont : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    max-width: 192rem;
+    width: 100%;
+}
+.container-fluid{
+    max-width : 160rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+
+}
+.container-md {
+    max-width: 144rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+.container-sm{
+    max-width: 120rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+.flex {
+    display: flex;
+}
+.space-between {
+    justify-content: space-between;
+}
+.flex-y-center {
+    align-items: center;
+}
+.dec {
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width:425px){
+    .container{
+        max-width: 40rem;
+        padding: 0 1.5rem;
+    }
+    .container-fluid{
+        max-width : 40rem;
+        padding: 0 1.5rem;
+    }
+    .container-md{
+        max-width : 40rem;
+        padding: 0 1.5rem;
+    }
+    .container-sm{
+        max-width : 40rem;
+        padding: 0 1.5rem;
+    }
+}
